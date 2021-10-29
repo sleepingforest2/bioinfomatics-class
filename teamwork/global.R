@@ -1,0 +1,6 @@
+if(!requireNamespace("shinyjs",quietly=TRUE)) install.packages("shinyjs")
+library(shinyjs)
+if (!requireNamespace("ggplot2", quietly = TRUE)) install.packages("ggplot2")
+library(ggplot2)
+if(!requireNamespace("colourpicker",quietly=TRUE)) install.packages("colourpicker")
+library(colourpicker)
